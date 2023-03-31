@@ -14,6 +14,7 @@ body {
 }
 
 section {
+    max-width: 1150px;
     margin: 0 auto;
 }
 
@@ -40,8 +41,9 @@ header {
     background-color: #AD1818;
     color: #fff;
     padding: 20px 40px 20px 40px;
+    font-family: inherit;
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 300;
     border-radius: 5px;
     border: 0px;
 }
@@ -49,22 +51,27 @@ header {
 .button-outline {
     text-decoration: none;
     background-color: transparent;
+    font-family: inherit;
     color: #C13434;
     padding: 56px 0px 56px 0px;
     font-size: 30px;
-    font-weight: 200;
+    font-weight: 300;
     border-radius: 5px;
     border: 1px solid #C13434;
 }
 
 .button-outline:hover {
-    background-color: #FFF8F8;
+    background-color: #AD1818;
+    font-family: inherit;
+    transition-duration: .4s;
     cursor: pointer;
+    color: #fff;
 }
 
 .main-button:hover {
     background-color: #C13434;
     cursor: pointer;
+    font-family: inherit;
 }
 
 h1 {
